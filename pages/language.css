@@ -265,3 +265,27 @@ hr {
 /* .main_movies {
     margin: 25px 5px;
 } */
+
+.language_elements {
+    margin-top: 10px;
+    display: flex;
+    padding: 0px 25px;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.language_elements_individual {
+    background-color: #eff1fa;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: auto;
+}
+
+.language_elements_individual:hover {
+    cursor: pointer;
+    background-color: #ffa500;
+}
