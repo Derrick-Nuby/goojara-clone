@@ -1,0 +1,292 @@
+/* start of global */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* header also global */
+.header {
+    background-color: #2d6ab1;
+    padding: 7px 10px 7px 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.logo:hover {
+ background-color: #81a6d0;
+ cursor: pointer;
+}
+
+/* search bar also global */
+.header input[type=text] {
+    border: none;
+    padding: 6px 5px;
+    background: #81a6d0;
+    font-size: 15px;
+    width: 25vw;
+    /* width: 310px; */
+    border-radius: 2px;
+}
+
+/* second header also global */
+.header2 {
+    display: flex;
+    padding: 3px 40px;
+    background-color: #eff1fa;
+    align-items: center;
+    border-bottom: 1px solid #aac2dd;
+}
+
+/* .movie_type {
+    font-size: 16px;
+    color: #333333;
+    line-height: 36px; */
+    /* border: 1px solid red; */
+    /* padding: 0px 9px; */
+/* } */
+
+
+.movie_type {
+display: inline-block;
+line-height: 36px;
+font-size: 16px;
+color: #333;
+padding: 0px 15px;
+}
+
+.movie_type:hover {
+    cursor: pointer;
+    text-underline-offset: 14px;
+    text-decoration: underline 3px solid #2d6ab1;
+}
+
+/* the movies part is selected */
+
+.movie_type_series {
+    text-underline-offset: 14px;
+    text-decoration: underline 3px solid #2d6ab1;
+}
+
+
+/* one movie stands for one box and all box are named the same */
+.one_movie {
+    background-color: green;
+    width: 170px;
+    height: 230px;
+    border-radius: 3px;
+    background-image: url(../images/mb_228_228406.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* all_divs is a div containing all elements it is a movie box infact */
+
+.all_divs {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* all_divs_featured represent the one at the top of the menu */
+.all_divs_featured {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* mv_top stands for the top part of ovie box which is type and year */
+
+.mv_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mv_top_featured {
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+/* the botto name of the movie */
+.name {
+    background-color: #000000a1;
+    color: #c0c0c0;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 0px 0px 3px 3px;
+    padding: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+
+/* the type of ovie hdr or other */
+.type {
+    background-color: #428BCA;
+    color: #fefefe;
+    font-size: 11px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px 0px 0px 0px;
+    text-align: center;
+    /* line-height: 20px; */
+}
+
+/* the year the movie was reased */
+
+.year {
+    background-color: #000000a1;
+    color: #fefefe;
+    padding: 3px 5px 3px 5px;
+    border-radius: 0px 3px 0px 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* big_row_flex_movie is the one row spanning 7 movies */
+
+/*  <div class="big_row_flex_movie">
+                <div class="one_movie"> to delete */
+
+
+.big_row_flex_movie {
+    display: flex;
+    gap: 20px;
+    padding: 0px 30px 0px 20px;
+}
+
+/* the featured section of movies */
+.featured {
+    background-color: #f2f3f7;
+    padding: 13px 15px 15px 15px;
+    border-bottom: 1px solid #c3daee;
+}
+
+/* the middle header to select btn ovies */
+.middle_header {
+    margin-top: 20px;
+    display: flex;
+    padding: 0px 25px;
+}
+
+.middle_header_item {
+    background-color: #eff1fa;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px 3px 0px 0px;
+    margin-left: 5px;
+}
+
+.middle_header_item:hover {
+    cursor: pointer;
+    /* background-color: #ffa500; */
+}
+
+/* middle header selection */
+
+.a-z_type {
+    background-color: #ffa500;
+}
+
+hr {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0.2px solid #ffa500;
+}
+
+/* all_movies are botto movies not included in featuered */
+
+.all_movies {
+    background-color: #ffffff;
+    padding: 13px 15px 15px 15px;
+}
+
+/* the footer showing online and logo */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #eff1fa;
+    border-top: 1px solid #c3daee;
+    margin-top: 70px;
+    align-items: center;
+}
+/* the bottom logo */
+.f_logo_text > a {
+    font-size: 11px;
+    color: #63b2df;
+    text-decoration: none;
+    /* text-decoration-color: #266061; */
+}
+
+/* the bottom showing online */
+
+.online {
+    font-size: 11px;
+}
+
+.big_flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    /* padding: 0px 20px; */
+}
+
+.big_flex_featured {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #f2f3f7;
+    border-bottom: 1px solid #c3daee;
+}
+
+/* .main_movies {
+    margin: 25px 5px;
+} */
+
+.a-z_elements {
+    margin-top: 10px;
+    display: flex;
+    padding: 0px 25px;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.a-z_elements_individual {
+    background-color: #eff1fa;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: auto;
+}
+
+.a-z_elements_individual:hover {
+    cursor: pointer;
+    background-color: #ffa500;
+}
