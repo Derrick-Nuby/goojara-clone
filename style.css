@@ -25,6 +25,7 @@ body {
 
 .logo:hover {
  background-color: #81a6d0;
+ cursor: pointer;
 }
 
 /* search bar also global */
@@ -33,7 +34,8 @@ body {
     padding: 6px 5px;
     background: #81a6d0;
     font-size: 15px;
-    width: 310px;
+    width: 25vw;
+    /* width: 310px; */
     border-radius: 2px;
 }
 
@@ -80,7 +82,7 @@ padding: 0px 15px;
 /* one movie stands for one box and all box are named the same */
 .one_movie {
     background-color: green;
-    width: 180px;
+    width: 170px;
     height: 230px;
     border-radius: 3px;
     background-image: url(./images/mb_228_228406.jpg);
@@ -154,6 +156,10 @@ padding: 0px 15px;
 }
 
 /* big_row_flex_movie is the one row spanning 7 movies */
+
+/*  <div class="big_row_flex_movie">
+                <div class="one_movie"> to delete */
+
 
 .big_row_flex_movie {
     display: flex;
@@ -230,3 +236,27 @@ hr {
 .online {
     font-size: 11px;
 }
+
+.big_flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    /* padding: 0px 20px; */
+}
+
+.big_flex_featured {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #f2f3f7;
+    border-bottom: 1px solid #c3daee;
+}
+
+/* .main_movies {
+    margin: 25px 5px;
+} */
