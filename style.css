@@ -33,11 +33,41 @@ body {
     width: 310px;
     border-radius: 2px;
 }
+
+.header2 {
+    display: flex;
+    padding: 3px 40px;
+    background-color: #eff1fa;
+    align-items: center;
+    border-bottom: 1px solid #aac2dd;
+}
+
+/* .movie_type {
+    font-size: 16px;
+    color: #333333;
+    line-height: 36px; */
+    /* border: 1px solid red; */
+    /* padding: 0px 9px; */
+/* } */
+.movie_type {
+display: inline-block;
+line-height: 36px;
+font-size: 16px;
+color: #333;
+padding: 0px 15px;
+}
+
+.movie_type:hover {
+    cursor: pointer;
+    text-underline-offset: 14px;
+    text-decoration: underline 3px solid #2d6ab1;
+}
+
 .one_movie {
     background-color: green;
     width: 180px;
-    height: 250px;
-    border-radius: 5px;
+    height: 230px;
+    border-radius: 3px;
     background-image: url(./images/mb_228_228406.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,7 +81,7 @@ body {
 }
 
 .all_divs {
-    height: 250px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -62,7 +92,7 @@ body {
     color: #c0c0c0;
     font-weight: 400;
     text-align: center;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 3px 3px;
     padding: 5px 0px 5px 0px;
     font-size: 14px;
 }
@@ -72,7 +102,7 @@ body {
     color: #fefefe;
     font-size: 11px;
     padding: 3px 5px 3px 5px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 3px 0px 0px 0px;
     text-align: center;
     /* line-height: 20px; */
 }
@@ -81,7 +111,7 @@ body {
     background-color: #000000a1;
     color: #fefefe;
     padding: 3px 5px 3px 5px;
-    border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 3px 0px 0px;
     font-size: 10px;
     text-align: center;
 }
@@ -89,5 +119,17 @@ body {
 .big_row_flex_movie {
     display: flex;
     gap: 20px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 30px 0px 20px;
+}
+
+.featured {
+    background-color: #f2f3f7;
+    padding: 13px 15px 15px 15px;
+    border-bottom: 1px solid #c3daee;
+}
+
+.middle_header {
+    margin-top: 20px;
+    display: flex;
+    padding: 0px 25px;
 }
