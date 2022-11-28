@@ -1,0 +1,27 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.one_movie {
+    background-color: green;
+    width: 180px;
+    height: 250px;
+    border-radius: 5px;
+    
+}
+
+.mv_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all_divs {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
