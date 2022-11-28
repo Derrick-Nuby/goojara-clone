@@ -3,7 +3,7 @@ body {
     margin: 0px;
     box-sizing: border-box;
     background-color: #ffffff;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Tahoma, Arial, sans-serif;
 }
 
 .one_movie {
@@ -11,6 +11,10 @@ body {
     width: 180px;
     height: 250px;
     border-radius: 5px;
+    background-image: url(./images/mb_228_228406.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -24,4 +28,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.name {
+    background-color: #000000a1;
+    color: #c0c0c0;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+
+.type {
+    background-color: #428BCA;
+    color: #fefefe;
+    font-size: 11px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px 0px 0px 0px;
+    text-align: center;
+    /* line-height: 20px; */
+}
+
+.year {
+    background-color: #000000a1;
+    color: #fefefe;
+    padding: 3px 5px 3px 5px;
+    border-radius: 0px 5px 0px 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.big_row_flex_movie {
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px 0px 20px;
 }
