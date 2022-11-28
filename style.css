@@ -128,8 +128,57 @@ padding: 0px 15px;
     border-bottom: 1px solid #c3daee;
 }
 
+.all_movies {
+    background-color: #ffffff;
+    padding: 13px 15px 15px 15px;
+}
+
 .middle_header {
     margin-top: 20px;
     display: flex;
     padding: 0px 25px;
+}
+
+.middle_header_item {
+    background-color: #eff1fa;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px 3px 0px 0px;
+    margin-left: 5px;
+}
+
+.middle_header_item:hover {
+    cursor: pointer;
+    /* background-color: #ffa500; */
+}
+
+hr {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0.2px solid #ffa500;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #eff1fa;
+    border-top: 1px solid #c3daee;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.f_logo_text > a {
+    font-size: 11px;
+    color: #63b2df;
+    text-decoration: none;
+    /* text-decoration-color: #266061; */
+}
+
+.online {
+    font-size: 11px;
+}
+
+.popular_type {
+    background-color: #ffa500;
 }
