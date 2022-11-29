@@ -289,3 +289,10 @@ hr {
     cursor: pointer;
     background-color: #ffa500;
 }
+
+.hrl {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    border: 0.2px solid #c3daee;
+}
