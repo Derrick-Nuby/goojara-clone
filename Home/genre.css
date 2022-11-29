@@ -87,7 +87,8 @@ padding: 0px 15px;
 
 /* one movie stands for one box and all box are named the same */
 .one_movie {
-    background-color: green;
+        background-color: #2d6ab1;
+
     width: 170px;
     height: 230px;
     border-radius: 3px;
