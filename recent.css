@@ -91,12 +91,68 @@ padding: 0px 15px;
     width: 170px;
     height: 230px;
     border-radius: 3px;
-    background-image: url(./images/mb_228_228406.jpg);
+    
+}
+
+/* modifier movie */
+
+.movie--top--1 {
+    background-image: url(./images/home1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
+
+.movie--top--2 {
+    background-image: url(./images/home2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie--top--3 {
+    background-image: url(./images/home3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie--top--4 {
+    background-image: url(./images/home4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie--top--5 {
+    background-image: url(./images/home5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie--top--6 {
+    background-image: url(./images/home6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie--top--7 {
+    background-image: url(./images/home7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie--top--7 {
+    background-image: url(./images/home2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 /* all_divs is a div containing all elements it is a movie box infact */
 
